@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official Fan Website for Beyblade X: Rebirth Ascension" />
+  <title>Beyblade X: Rebirth Ascension</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background: #222;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .bio-card {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .manga-gallery img {
+      width: 100%;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+    }
+    .map, .designs {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #111;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beyblade X: Rebirth Ascension (Fan Manga)</h1>
+    <p><em>A fan-made tribute to the Beyblade universe. All rights belong to their respective owners.</em></p>
+  </header>
+  <nav>
+    <a href="#manga">Manga</a>
+    <a href="#bios">Character Bios</a>
+    <a href="#beyblades">Beyblade Designs</a>
+    <a href="#map">World Map</a>
+  </nav>
+  
+  <section id="manga">
+    <h2>Manga Viewer</h2>
+    <div class="manga-gallery">
+      <img src="images/page1.jpg" alt="Manga Page 1">
+      <img src="images/page2.jpg" alt="Manga Page 2">
+      <img src="images/page3.jpg" alt="Manga Page 3">
+    </div>
+  </section>
+
+  <section id="bios">
+    <h2>Character Bios</h2>
+    <div class="bio-card">
+      <h3>Kieran Shirasagi</h3>
+      <p>Son of Lui Shirasagi and Kristina Kuroda. Calm, analytical, and the tactical core of the team.</p>
+    </div>
+    <div class="bio-card">
+      <h3>Seirju Kurenai</h3>
+      <p>Son of Shu Kurenai. Tactical and reliable with a strong sense of friendship and balance.</p>
+    </div>
+    <div class="bio-card">
+      <h3>Blue Aoi</h3>
+      <p>Son of Valt Aoi and Hanna Suiro. Confident and fast-paced with immense speed-focused talent.</p>
+    </div>
+  </section>
+
+  <section id="beyblades">
+    <h2>Beyblade Designs</h2>
+    <img src="images/nightmare_x_longinus.png" alt="Nightmare X Longinus" class="designs">
+    <img src="images/kinetic_x_satomb.png" alt="Kinetic X Satomb" class="designs">
+    <img src="images/victory_x_valkyrie.png" alt="Victory X Valkyrie" class="designs">
+  </section>
+
+  <section id="map">
+    <h2>World Map</h2>
+    <p>Explore the global stadiums and rankings for the Beyblade X World League.</p>
+    <img src="images/world_map.png" alt="World Map" class="map">
+  </section>
+
+  <footer>
+    <p>This is a non-profit fan project. Beyblade is owned by Takara Tomy, Hasbro, and relevant licensors. No copyright infringement is intended.</p>
+  </footer>
+</body>
+</html>
